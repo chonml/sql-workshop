@@ -32,9 +32,9 @@ psql --version
 ### ✅ Step 5: Create and Access a Database
 ```bash
 createdb mydb
-psql mydb
+psql -l
 ```
-
+-l will be used to verify that your db is created
 ---
 
 ## 🪟 Windows Installation (Using the Official Installer)
@@ -46,17 +46,15 @@ Go to [https://www.postgresql.org/download/windows/](https://www.postgresql.org/
 
 - Choose the version and installation directory.
 - Set a password for the `postgres` superuser.
-- Install `pgAdmin` (recommended).
 
 ### ✅ Step 3: Launch SQL Shell or pgAdmin
 
 - Open **SQL Shell (psql)** to use the command line.
-- Open **pgAdmin 4** for a graphical interface.
 
 ### ✅ Step 4: Verify Installation
 Run in the SQL Shell:
 ```bash
-psql -U postgres
+psql -l
 ```
 Enter the password you set during installation.
 
