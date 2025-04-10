@@ -60,6 +60,8 @@ Enter the password you set during installation.
 
 ---
 
-You're now ready to use PostgreSQL on your machine!
+## 📊 Our University Schema (UML Diagram)
+
+![University Schema UML](./university_schema_uml_fixed.png)
 
 
