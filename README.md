@@ -1,3 +1,8 @@
+## 📊 Our University Schema (UML Diagram)
+
+![University Schema UML](./university_schema_uml_fixed.png)
+
+---
 
 # 📦 Installing PostgreSQL on macOS and Windows
 
@@ -59,9 +64,5 @@ psql -l
 Enter the password you set during installation.
 
 ---
-
-## 📊 Our University Schema (UML Diagram)
-
-![University Schema UML](./university_schema_uml_fixed.png)
 
 
